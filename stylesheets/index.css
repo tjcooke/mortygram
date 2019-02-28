@@ -38,12 +38,17 @@ html, body {
 
 .picture-frame img {
     width: 100%; 
-    opacity: 0.9;
+    opacity: 0.1;
     /* display: block; */
+    transition: all .3s ease-in-out 2s;
+
+    /* 1. property names or the word "all." 
+        */
 }
 
-.picture-frame.big img {
+.picture-frame img.big {
     transform: scale(2.0);
+    opacity: 1.0;
 }
 
 .hamster-playground {
