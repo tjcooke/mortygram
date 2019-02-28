@@ -29,10 +29,9 @@ html, body {
 
 /* Scale the image up if the picture-frame is being hovered
     Note that the scaling is applied to the img, *not* the picture fram.e */
-.picture-frame:hover img{
+.picture-frame:hover img {
     transform: scale(1.10);
     opacity: 1.0;
-
 }
 
 
@@ -93,7 +92,7 @@ html, body {
     }
 
     .logo-text {
-        font-size 32px;
+        font-size: 32px;
         text-align: center;
     }
     
