@@ -55,11 +55,41 @@ html, body {
     body {
         background: red;
     }
+    
+    .picture-frame {
+        width: 40%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .hamster-playground {
+        /* flex-direction: row; */
+        /* flex-wrap: wrap; */
+        flex-flow: wrap row;
+        justify-content: space-around;
+        align-items: center;
+    }
 }
 
 @media screen and (min-width: 700px) {
 
     body {
-        background: purple;
+        background: blue;
+    }
+
+    .logo-text {
+        font-size 32px;
+        text-align: center;
+    }
+    
+    
+}
+
+@media screen and (min-width: 1000px) {
+    body {
+        background: orange;
+    }
+    .hamster-playground {
+        flex-direction: row;
+        
     }
 }
