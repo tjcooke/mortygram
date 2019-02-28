@@ -42,6 +42,10 @@ html, body {
     /* display: block; */
 }
 
+.picture-frame.big img {
+    transform: scale(2.0);
+}
+
 .hamster-playground {
     border: 5px solid gold;
     display: flex;
